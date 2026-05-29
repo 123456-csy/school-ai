@@ -1,0 +1,10 @@
+{
+  "name": "campus-ai-assistant",
+  "version": "1.0.0",
+  "description": "校园AI助手 - 智能问答系统",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Build completed'",
+    "start": "vercel dev"
+  }
+}

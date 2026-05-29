@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>校园AI助手 - 你的智能问答伙伴</title>
+  <!-- 添加网页图标（favicon） -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>"
+    type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <!-- 可选：highlight.js 用于代码高亮 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+</head>
+
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <h2>🎓 校园AI助手</h2>
+      <p>问我任何校园问题：校历、选课、图书馆、活动...</p>
+    </div>
+    <div class="chat-messages" id="messages">
+      <div class="message assistant">
+        <div class="avatar">🤖</div>
+        <div class="content">你好！我是校园助手，可以帮你解答关于学习、生活、校园信息的问题。</div>
+      </div>
+    </div>
+    <div class="chat-input-area">
+      <textarea id="userInput" placeholder="输入你的问题..." rows="1"></textarea>
+      <button id="sendBtn">发送</button>
+    </div>
+    <div class="loading" id="loading" style="display: none;">AI 正在思考...</div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="script.js"></script>
+</body>
